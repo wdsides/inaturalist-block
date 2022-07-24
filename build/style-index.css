@@ -1,0 +1,108 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+div.inat-widget {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.inat-widget-header svg {
+  vertical-align: middle !important;
+  max-height: 2.5rem !important;
+  max-width: 2.5rem !important;
+  float: left;
+  margin-right: 0.7rem !important;
+}
+
+.inat-widget-header {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+a.inat-observation-image {
+  display: block;
+  float: left;
+}
+
+a.inat-observation-image {
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  margin: 1px !important;
+  height: 75px !important;
+}
+
+a.inat-observation-image:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+div.inat-widget-small {
+  clear: both !important;
+  margin-top: 0.5rem !important;
+}
+
+.inat-widget table {
+  width: auto !important;
+  clear: both !important;
+  margin-top: 0.5rem !important;
+}
+
+.inat-widget table, .inat-widget td, .inat-widget tr {
+  border: none !important;
+}
+
+.inat-observation-body a, .inat-observation-body a:visited, .inat-observation-body a:hover, .inat-observation-body a:active {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: 20px;
+}
+
+.inat-meta {
+  font-size: smaller;
+  line-height: 1.2;
+}
+
+.inat-label, .inat-value {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  font-size: 16px;
+}
+
+.inat-label {
+  color: #888;
+}
+
+td.inat-observation-image {
+  padding: 1px !important;
+}
+
+.inat-observation-image img {
+  float: left !important;
+}
+
+.inat-observation {
+  transition-timing-function: ease;
+  transition-duration: 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.inat-observation:hover .inat-observation-image {
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.inat-observation:hover .inat-observation-body a {
+  font-weight: bold;
+}
+
+td.inat-observation-body {
+  padding: 0rem 0.5rem !important;
+  padding-bottom: 0 !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

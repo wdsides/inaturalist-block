@@ -1,0 +1,33 @@
+{
+	"apiVersion": 2,
+	"name": "willsides/inaturalist",
+	"version": "1.0.0",
+	"title": "iNaturalist",
+	"category": "embed",
+	"description": "Embeds a user's iNaturalist obserations from a given date range",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+        "username": {
+            "type": "string"
+        },
+        "date1": {
+            "type": "string"
+        },
+        "date2": {
+            "type": "string"
+        },
+        "iNatWidgetURL": {
+            "type": "string"
+        },
+        "layout": {
+            "type": "string",
+            "default": "large"
+        }
+	},
+	"textdomain": "inaturalist",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
